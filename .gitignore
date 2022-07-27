@@ -23,3 +23,5 @@ build/
 lib/
 
 .vscode
+
+data

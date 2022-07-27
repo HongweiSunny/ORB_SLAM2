@@ -127,6 +127,8 @@ int main(int argc, char **argv)
 
 void LoadImages(const string &strFile, vector<string> &vstrImageFilenames, vector<double> &vTimestamps)
 {
+    cout << "strfile-------------";
+    cout << strFile ;
     ifstream f;
     f.open(strFile.c_str());
 
